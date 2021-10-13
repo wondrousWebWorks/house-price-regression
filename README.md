@@ -4,6 +4,9 @@
 
 > The dataset was taken from the **House Prices - Advanced Regression Techniques** competion page on [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview "House Price Regression page on Kaggle").
 
+<details>
+<summary>**Click to expand!**</summary>
+
 <table>
 <thead>
   <tr>
@@ -1663,3 +1666,4 @@
   </tr>
 </tbody>
 </table>
+</details>

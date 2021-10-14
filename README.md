@@ -4,8 +4,10 @@
 
 > The dataset was taken from the **House Prices - Advanced Regression Techniques** competion page on [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview "House Price Regression page on Kaggle").
 
+This dataset contains 79 explanatory variables which describe a plethory of aspects of residential homes in Ames, Iowa. Although any number of features can be chosen as the target variable, our fictious requirement is being able to predict the house price. Another requirement is identifying which features influence house prices in this particular district most. Exploratory Data Analysis is used to identify these features.
+
 <details>
-<summary>**Click to expand!**</summary>
+<summary>Click to expand the data set!</summary>
 
 <table>
 <thead>

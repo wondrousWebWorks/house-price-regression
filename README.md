@@ -1,5 +1,15 @@
 # Predicting House Prices Using Regression
 
+A fictional individual, Jane Doe, has received an inheritance from a deceased great-grandfather. Included in the heritage are four houses located in Ames, Iowa. Although Jane has a rather good understanding of the worth properties in her own residential area, she fears that basing her estimates for property worth on her current knowledge might lead to inaccurate appraisals. What makes a house desirable and valuable where she comes from might not be the same in Ames, Iowa. 
+
+Jane needs help if she is to maximise the sales price for the inherited properties. She decides to ask her friend, a Junior Practitioner, for help. Her reasons for doing so are two-fold:
+
+1. She would rather give a friend much-needed exposure and experience than approaching a stranger and 
+2. She also doesn't know the worth of the properties and does not want to take the risk of spending too much money without an idea of the possible return on her expenses.
+
+## Project Requirements
+
+
 ## Dataset Content
 
 > The dataset was taken from the **House Prices - Advanced Regression Techniques** competion page on [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview "House Price Regression page on Kaggle").

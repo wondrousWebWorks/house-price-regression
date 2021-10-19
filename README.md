@@ -7,16 +7,25 @@ Jane needs help if she is to maximise the sales price for the inherited properti
 1. She would rather give a friend much-needed exposure and experience than approaching a stranger and 
 2. She also doesn't know the worth of the properties and does not want to take the risk of spending too much money without an idea of the possible return on her expenses.
 
-## Project Requirements
+## 1. Project Requirements
 
-Jane made her requirements clear and expects a level of service equivalent to that of established Data Practitioners. There is potentially a decent amount of money to be made or lost when selling the four properties. The two requirements are:
+Jane made her requirements clear and expects a level of service equivalent to that of established Data Practitioners. There is potentially a decent amount of money to be made or lost when selling the four properties. The two requirements are outlined below.
 
-1. Determine which features contribute most to the house prices.
-2. Implement a way to use these features to predict the value of a house.
+### 1.1 Visualise data and determine which features contribute most to house prices in Ames, Iowa.
+
+- Inspect the data related to house prices.
+- Perform a correlation study to confirm that identified features are accurate and find any that were missed during data analysis.
+- Plot the main variables to visualise insights.
+
+### 1.2 Implement a way to use these features to predict the value of a house.
+
+- Build different regression models to predict house prices based on identified variables.
+- Perform validation on models to improve their performance.
+- Compare the prediction results of all models to identify the best one.
 
 From a Data Practitioner perspective, the **features** affecting house prices are **labels**, while the **house price** is the **target** column in the dataset.
 
-## Dataset Content
+## 2. Dataset Content
 
 > The dataset was taken from the **House Prices - Advanced Regression Techniques** competion page on [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview "House Price Regression page on Kaggle").
 
@@ -1685,3 +1694,5 @@ This dataset contains 79 explanatory variables which describe a plethory of aspe
 </tbody>
 </table>
 </details>
+
+## 

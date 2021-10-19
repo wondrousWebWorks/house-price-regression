@@ -1695,4 +1695,24 @@ This dataset contains 79 explanatory variables which describe a plethory of aspe
 </table>
 </details>
 
-## 
+## 3. Machine Learning (ML) Business Case
+
+We have been tasked with identifying the features which most affect the price of houses in Ames, Iowa. Once these feature variable have been identified, they need to be used to train a ML model that can predict house prices with a certain degree of certainty.
+
+### 3.1 Models
+
+Prediction calls for the use of regression models. Though there are a variety of regression models to choose from, this study will focus on the following:
+
+#### 3.1.1 Linear Regression Model
+
+Linear regression is a Supervised Learning algorithm. It assumes a linear relationship between the input variables (x) and the single output variable (y). In essence, y can be calculated from a linear combination of the input variables (x). More information on the formulas used for Linear Regression can be found [here](https://machinelearningmastery.com/linear-regression-for-machine-learning/).
+
+The existing [LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) model from the Scikit Learn library will suit our purposes.
+
+#### 3.1.2 Random Forest Regression Model
+
+Random forest is also a Supervised Learning algorithm. An ensemble learning method for regression and classification is used. In our study, we will focus in its regression capabilities. A multitude of decision trees are built at training time and the class that is the mean prediction (regression) of the individual trees are generated as output.
+
+A random forest is a meta-estimator which combines the result of multiple predictions and aggregates many decision trees. For information, please read [this](https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f) Medium article.
+
+We will use the [RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html?highlight=randomforestregressor#sklearn.ensemble.RandomForestRegressor) model from the Scikit Learn library in our study.

@@ -3,12 +3,16 @@ from app_pages.multipage import MultiPage
 
 # load pages scripts
 from app_pages.page_summary import page_summary_body
+from app_pages.page_customer_study import page_customer_study_body
+from app_pages.page_project_hypothesis import page_project_hypothesis_body
 
 # Create an instance of the app 
-app = MultiPage(app_name= "HousePricePrediction")
+app = MultiPage(app_name="HousePricePrediction")
 
 # Add your app pages here using .add_page()
 app.add_page("Quick Project Summary", page_summary_body)
+app.add_page("Customer Study", page_customer_study_body)
+app.add_page("Project Hypothesis", page_project_hypothesis_body)
 
 # Run the  app
 app.run()

@@ -83,12 +83,48 @@ def page_customer_study_body():
                 correlation_scatter_plot(feature)
 
     st.write("---")
-        
-    # Parallel plot
-    if st.checkbox("Parallel Plot"):
+
+    # Customer Study Insights
+    if st.checkbox("Customer Study Insights"):
         st.write(
-            f"* Information in yellow indicates the profile from a churned customer")
-        pass
+            f"- **Overall Quality:**  The higher the Overall Quality, the "
+            f"higher the Sale Price.\n"
+            f"- **Year Built:** The more recent the construction date, "
+            f"the higher the Sale Price. The increase is more noticeable "
+            f"for properties constructed later than 1960.\n"
+            f"- **Remodel Date:** The more recent the remodelling date, "
+            f"the higher the Sale Price. The majority of out outliers with "
+            f"higher Sale Prices tend to manifest for properties remodelled "
+            f"after the nineteen-nineties.\n"
+            f"- **Basement Square Footage:** There seems to be a strong "
+            f"correlation with bigger basement sizes commanding higher prices. "
+            f"The highest prices seem to come from properties with basement "
+            f"areas between 1000 and just over 3000 square feet.\n"
+            f"- **First Floor Square Footage:** There seems to be a "
+            f"strong correlation with bigger first floor sizes commanding "
+            f"higher prices. The highest prices seem to come from properties "
+            f"with first floor areas between about 1000 and just over 2500 "
+            f"square feet.\n"
+            f"- **Ground Floor Square Footage:** There seems to be a "
+            f"strong correlation with bigger ground floor sizes commanding "
+            f"higher prices. The highest prices seem to come from properties "
+            f"with first floor areas between about 2000 and just over 4000 "
+            f"square feet.\n"
+            f"- **Full Bathrooms:** Properties with two or three bathrooms "
+            f"command higher prices. What is surprising here is that a "
+            f"property without any bathrooms sold for nearly $400,000.\n"
+            f"- **Rooms Above Grade:** Properties with five to nine rooms "
+            f"above Grade do not show great variance in Sale Price. The "
+            f"highest Sale Prices are for properties with 10 to 12 rooms.\n"
+            f"- **Garage (Number of Cars):** Properties with room for "
+            f"two or three cars sold for higher Sale Prices.\n"
+            f"- **Garage Square Footage:** There seems to be a "
+            f"correlation with Sale Price where bigger garage areas "
+            f"sold for higher prices. What is interesting is that the "
+            f"correlation holds true up to about 1200 square feet. "
+            f"Properties with larger garage square footage did not sell "
+            f"for the highest prices.\n"
+        )
 
 def inspect_data(df):
     st.write(

@@ -26,7 +26,7 @@ selected_feature_dict = {
 }
 
 # load data
-df_full = load_house_price_data()
+df_full = load_house_price_data("train", "raw")
 
 def page_customer_study_body():
     # hard copied from ExploratoryDataAnalysis notebook

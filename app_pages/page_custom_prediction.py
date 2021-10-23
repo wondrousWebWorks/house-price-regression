@@ -18,7 +18,9 @@ selected_feature_dict = {
     'SalePrice': 'Sale Price'
 }
 
+
 def page_custom_prediction():
+    """Get user input and make Sale Price prediction"""
     st.write("### Make Custom Predictions")
 
     df_train = load_house_price_data('train', 'raw')

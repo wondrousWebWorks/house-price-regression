@@ -1716,3 +1716,12 @@ Random forest is also a Supervised Learning algorithm. An ensemble learning meth
 A random forest is a meta-estimator which combines the result of multiple predictions and aggregates many decision trees. For information, please read [this](https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f) Medium article.
 
 We will use the [RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html?highlight=randomforestregressor#sklearn.ensemble.RandomForestRegressor) model from the Scikit Learn library in our study.
+
+## 4. Credits
+
+- The **Churnometer** walkthrough project from Code Institute was referenced:
+    - for the general project structure
+    - to see how Streamlit apps are written
+- [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](https://www.amazon.co.uk/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1635230780&sr=8-1), Aurelien Geron, 2019
+    - correlation
+    - RandomizedSearchCV for model optimisation

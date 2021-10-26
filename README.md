@@ -1717,7 +1717,19 @@ A random forest is a meta-estimator which combines the result of multiple predic
 
 We will use the [RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html?highlight=randomforestregressor#sklearn.ensemble.RandomForestRegressor) model from the Scikit Learn library in our study.
 
-## 4. Credits
+## 4. Bugs
+
+- When loading the deployed app, the following error message is displayed occasionally: `StreamlitAPIException: set_page_config() can only be called once per app, and must be called as the first Streamlit command in your script.`
+- Prices are shown with four decimal places. I've tried to set the way Pandas renders float values, but nothing worked.
+
+## 5. Features left to implement
+
+- Format float prices to two decimal places
+- Normalise the data for more accurate predictions
+- Add a Linear Regression model and compare to the Random Forest Regressor
+- Add an XGBoost model and compare to the Random Forest Regressor and Linear Regressor models
+
+## 6. Credits
 
 - The **Churnometer** walkthrough project from Code Institute was referenced:
     - for the general project structure

@@ -96,5 +96,5 @@ def page_custom_prediction():
         # Make prediction on custom data
         custom_prediction = rf_model.predict(df_custom)
         st.info(
-            f"#### Predicted Sale Price for Entered Parameters: ${custom_prediction[0]}"
+            f"#### Predicted Sale Price for Entered Parameters: ${custom_prediction[0]}" # noqa: E501
         )
